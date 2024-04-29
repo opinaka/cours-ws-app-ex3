@@ -13,7 +13,7 @@ RUN npm install
 # Copie du reste de l'application dans le répertoire /app.
 COPY . /app
 
-RUN npm run build
+RUN npm build
 
 # Second Stage: Run Application
 
